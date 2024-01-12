@@ -43,9 +43,9 @@ const Hero2 = () => {
                   lineHeight: "1.5rem",
                   marginTop: 1,
                 }}>
-                Leading institution in tech education, offering comprehensive
-                diploma programs in Software Engineering, Data & AI, Product
-                Design and Management
+                Shaping the future of technology education in Africa. Empowering
+                students with world-class computer education and cutting-edge
+                tech skills.
               </Typography>
               <Box className=" w-full mt-16 border-2 border-[#c39a4b] rounded-lg p-3  flex items-center space-x-2">
                 <Select
@@ -71,8 +71,8 @@ const Hero2 = () => {
                     },
                     { value: "DIPLOMA COURSES", label: "DIPLOMA COURSES" },
                     {
-                      value: "COPERATE TRAINING",
-                      label: "COPERATE TRAINING",
+                      value: "EXECUTIVE TRAINING",
+                      label: "EXECUTIVE TRAINING",
                     },
                   ]}
                 />

@@ -12,7 +12,7 @@ const Applications = () => {
       data-aos-duration="1200"
       data-aos-easing="ease-in-sine">
       <Box className="container">
-        <Title title="How to Apply" subtitle="Get Admitted" />
+        <Title title="Apply into our Diploma Courses" subtitle="Get Admitted" />
 
         <Box className="" sx={{ position: "relative" }}>
           <Grid container className="">
@@ -44,7 +44,7 @@ const Applications = () => {
                       opacity: "0.8",
                       marginTop: "2%",
                     }}>
-                    2023/2024 Applications coming soon
+                    2023/2024 Diploma Application coming soon
                   </Typography>
                   <Typography
                     variant="h6"
@@ -54,9 +54,10 @@ const Applications = () => {
                       fontSize: "13px",
                       marginTop: "2%",
                     }}>
-                    We create and sustain an environment that is conducive for
-                    teaching, learning and promotes the development of
-                    excellence and innovation.
+                    Embark on a path to professional excellence with global
+                    recognition. Gain hands-on experience, entrepreneurial
+                    skills, and a valuable network while learning from
+                    industry experts.
                   </Typography>
 
                   <Box className="mt-16">
@@ -77,7 +78,7 @@ const Applications = () => {
                             border: "1px solid #fff",
                           },
                         }}>
-                        How to Apply
+                        Coming soon
                       </Button>
                     </Link>
                   </Box>

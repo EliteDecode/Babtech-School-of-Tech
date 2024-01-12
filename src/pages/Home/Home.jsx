@@ -17,6 +17,7 @@ import CareerProgression from "../../components/CareerProgression/CareerProgress
 import LearningProgression from "../../components/LearningProgression/LearningProgression";
 import Partner from "../../components/Partner/Partner";
 import Roadmap from "../../components/Roadmap/Roadmap";
+import Hero from "../../components/Hero/Hero";
 
 const Home = () => {
   const { closeSubmenu } = useGlobalContext();
@@ -30,10 +31,10 @@ const Home = () => {
     <div>
       <Navbar />
       <div onMouseOver={closeSubmenu}>
-        <Hero2 />
+        <Hero />
 
-        <WhyUs />
         <College />
+        <WhyUs />
 
         <Events />
 

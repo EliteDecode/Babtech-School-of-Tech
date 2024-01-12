@@ -26,18 +26,18 @@ const WhyUs = () => {
         <Title title="Why Choose BST" subtitle="Why Us" />
         <Box className=" shadow-md rounded-md bg-white">
           <Grid container rowSpacing={4}>
-            <Grid
+            {/* <Grid
               item
               sm={12}
               md={5}
               className="flex items-center justify-center ">
               <img src={hrImg} className="rounded-md w-[85%]" />
-            </Grid>
-            <Grid item sm={12} md={7} className="sm:p-5 p-0">
+            </Grid> */}
+            <Grid item sm={12} md={12} className="sm:p-5 p-0">
               <Box>
                 <Grid container spacing={2}>
                   {whyUsReasons.map((resource, index) => (
-                    <Grid item sm={6} md={6} key={index}>
+                    <Grid item sm={6} md={4} key={index}>
                       <Box className="border shadow-md rounded-md p-4 bg-white">
                         <Box className="flex space-x-2 items-center">
                           {resource.icon}

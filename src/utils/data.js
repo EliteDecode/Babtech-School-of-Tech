@@ -42,10 +42,6 @@ import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import BusinessIcon from "@mui/icons-material/Business";
 import SecurityIcon from "@mui/icons-material/Security";
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
-import LanguageIcon from "@mui/icons-material/Language";
-import AirplayIcon from "@mui/icons-material/Airplay";
-import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
-import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 
 import ga1 from "../assets/ga1.jpg";
 import ga2 from "../assets/ga2.jpg";
@@ -54,11 +50,22 @@ import ga6 from "../assets/ga12.jpg";
 import ga7 from "../assets/ga7.jpg";
 import ga8 from "../assets/ga8.jpg";
 import ga9 from "../assets/ga9.jpg";
-import ga10 from "../assets/ga10.jpg";
-import ga11 from "../assets/ga11.jpg";
+import ga10 from "../assets/grad2.jpg";
+import ga11 from "../assets/grad1.jpg";
 import ga12 from "../assets/ga12.jpg";
 import ga13 from "../assets/ga13.jpg";
 import ga14 from "../assets/ga14.jpg";
+import gan1 from "../assets/gan1.jpg";
+import gan2 from "../assets/gan2.jpg";
+import gan3 from "../assets/grad3.jpg";
+
+import news1 from "../assets/babtech1.jpeg";
+import news2 from "../assets/babtech2.png";
+import news3 from "../assets/babtech3.png";
+import news4 from "../assets/grad4.jpg";
+import news5 from "../assets/grad5.jpg";
+import news6 from "../assets/grad6.jpg";
+import news7 from "../assets/grad7.jpg";
 
 export const sublinks = [
   {
@@ -115,18 +122,18 @@ export const sublinks = [
       { label: "Tuition Fees", icon: <FaBook />, url: "Admission" },
     ],
   },
-  {
-    page: "Resources",
-    links: [
-      { label: "Human Resources", icon: <FaBook />, url: "Resources" },
-      { label: "ICT Department", icon: <FaBook />, url: "Resources" },
-      {
-        label: "Student Affairs",
-        icon: <FaBook />,
-        url: "Resources/studentAffairs",
-      },
-    ],
-  },
+  // {
+  //   page: "Resources",
+  //   links: [
+  //     { label: "Human Resources", icon: <FaBook />, url: "Resources" },
+  //     { label: "ICT Department", icon: <FaBook />, url: "Resources" },
+  //     {
+  //       label: "Student Affairs",
+  //       icon: <FaBook />,
+  //       url: "Resources/studentAffairs",
+  //     },
+  //   ],
+  // },
   // {
   //   page: "Student Life",
   //   links: [{ label: "Residence", icon: <FaBook />, url: "Student Life" }],
@@ -146,19 +153,19 @@ export const sublinks = [
   //     { label: "Our Patners", icon: <FaBook />, url: "Public Information" },
   //   ],
   // },
-  {
-    page: "Contact",
-    links: [{ label: "info@hust.com", icon: <FaBook />, url: "Contact" }],
-  },
-  {
-    page: "Contact",
-    links: [
-      { label: "enquiries@hust.edu.ng", icon: <FaBook />, url: "Contact" },
+  // {
+  //   page: "Contact",
+  //   links: [{ label: "info@hust.com", icon: <FaBook />, url: "Contact" }],
+  // },
+  // {
+  //   page: "Contact",
+  //   links: [
+  //     { label: "enquiries@hust.edu.ng", icon: <FaBook />, url: "Contact" },
 
-      { label: "contact@hust.com", icon: <FaBook />, url: "Contact" },
-      { label: "+234 (901)-128-1920", icon: <FaBook />, url: "Contact" },
-    ],
-  },
+  //     { label: "contact@hust.com", icon: <FaBook />, url: "Contact" },
+  //     { label: "+234 (901)-128-1920", icon: <FaBook />, url: "Contact" },
+  //   ],
+  // },
 ];
 
 export const mainLinks = [
@@ -178,10 +185,10 @@ export const mainLinks = [
     page: "Admission",
     sublinks: true,
   },
-  {
-    page: "Resources",
-    sublinks: true,
-  },
+  // {
+  //   page: "Resources",
+  //   sublinks: true,
+  // },
   // {
   //   page: "Student Life",
   //   sublinks: true,
@@ -194,10 +201,10 @@ export const mainLinks = [
   //   page: "Public Information",
   //   sublinks: true,
   // },
-  {
-    page: "Contact",
-    sublinks: true,
-  },
+  // {
+  //   page: "Contact",
+  //   sublinks: true,
+  // },
 ];
 
 export const TopLinks = [
@@ -213,48 +220,76 @@ export const heroContents = [
   {
     class: "content-1",
     subtitle: "Welcome to",
-    title: "Hillside Science and Technology",
+    title: "Babtech School of Technology",
     subtitle2:
-      "Where Innovation Meets Education and Pioneering Excellence in Science and Technology Education",
-    btn1: "Apply Now",
+      "Empowering students with world-class computer education and cutting-edge tech skills.",
+    btn1: "Diploma",
     btn2: "Academics",
   },
   {
     class: "content-2",
     subtitle: "Our Mission",
-    title: "Shaping Futures In Science and Technology",
+    title: "Shaping Futures In Technology",
     subtitle2:
-      "Dedicated to Excellence in Education, Inspiring a Passion for Learnin and Building a Foundation for Success",
+      "Inspiring a Passion for Learnin and Building a Foundation for Success",
     btn1: "About Us",
     btn2: "Latest News",
   },
-  {
-    class: "content-3",
-    subtitle: "Our Expert Faculties",
-    title: "Excellent in Sci-Tech Education",
-    subtitle2:
-      "Meet Our World-Class Faculties Igniting Innovation Through Research and Transforming Ideas into Solutions",
-    btn1: "Explore ",
-    btn2: "Contact Us",
-  },
+  // {
+  //   class: "content-3",
+  //   subtitle: "Our Expert Tutors",
+  //   title: "Excellent in Tech Education",
+  //   subtitle2:
+  //     "Igniting Innovation Through Research and Transforming Ideas into Solutions",
+  //   btn1: "Explore ",
+  //   btn2: "Contact Us",
+  // },
 ];
 
 export const newsArray = [
   {
+    id: 1,
+    title:
+      "Annual Tech Summit & Graduation Celebrates 100 Graduates with a 'Tech Breakthrough Blueprint",
+    description:
+      "In a resounding celebration of technological accomplishments, the Annual Tech Summit & Graduation Ceremony is set to mark a significant milestone by honoring and graduating 100 tech enthusiasts. Themed Tech Breakthrough Blueprint: From Novice to Paid Prodigy, this event promises to be a convergence of innovation, expertise, and success stories.Scheduled to unfold in the upcoming festivities, the Tech Summit & Graduation Ceremony will shine a spotlight on the journey of individuals who have transitioned from novices to paid prodigies in the tech industry. The event will not only recognize the hard work and dedication of the graduates but also provide a platform for sharing insights and breakthroughs that have fueled their success.",
+    date: "Nov 14, 2023",
+    image: news3,
+  },
+  {
+    id: 2,
+    title: "BST Conference: Unlocking Success in the Data Job Market",
+    description:
+      "In a rapidly evolving digital landscape, mastering the intricacies of data science is key to unlocking career success. The upcoming event, Data Career Unwrapped, slated for November 22nd, 2023, at 12:30 PM, promises to be a game-changer for professionals seeking a competitive edge in the data job market. This exclusive gathering aims to provide participants with unparalleled insights into strategies for success in the dynamic world of data. Attendees will delve into complex concepts surrounding Artificial Intelligence (AI), Machine Learning (ML), and Data Science, gaining a comprehensive understanding of these cutting-edge technologies.",
+    date: "Nov 22, 2023",
+    image: news1,
+  },
+  {
+    id: 3,
+    title: "BST Conference: Unlock the Power of Personal Branding",
+    description:
+      "In the realm of professional development, establishing a strong personal brand is a pivotal step towards success. An upcoming session, Craft Your Identity, scheduled for November 14th, 2023, at 12:30 PM, invites individuals to delve into the art of personal branding with the insightful guidance of speaker Samuel Wheto. Set against the backdrop of empowering professionals to define and communicate their unique value, this session promises to be a transformative experience. Attendees will gather on Tuesday, 14th Nov. 2023, at 12:30 PM, for an enlightening exploration of personal branding principles and strategies.",
+    date: "Nov 14, 2023",
+    image: news2,
+  },
+  {
+    id: 4,
     title: "BST School Launches New STEM Program",
     description:
       "BST School is excited to announce the launch of its new STEM (Science, Technology, Engineering, and Mathematics) program. This comprehensive program is designed to prepare students for careers in science and technology by offering a wide range of courses and hands-on experiences. From robotics to advanced mathematics, students will have the opportunity to explore their interests and develop essential skills for the future. The launch of this program represents BST School's commitment to providing top-tier education in the STEM fields.",
     date: "October 15, 2023",
-    image: img1,
+    image: news4,
   },
   {
+    id: 5,
     title: "BST School titled Among Top Science Schools",
     description:
       "We are proud to share that BST School has been recognized as one of the top science schools in the country. This prestigious recognition is a testament to our dedication to excellence in science education. Our world-class faculty, state-of-the-art facilities, and innovative curriculum have all contributed to this achievement. We continue to inspire and empower our students to excel in the fields of science and technology.",
     date: "September 5, 2023",
-    image: img2,
+    image: news5,
   },
   {
+    id: 6,
     title: "Innovative Research Projects Showcase Student Talent",
     description:
       "Students at BST School showcased their innovative research projects at the annual Science and Technology Fair. From building autonomous drones to conducting groundbreaking experiments in chemistry and physics, our students demonstrated their passion for science and technology. The fair was a testament to their hard work, creativity, and dedication to pushing the boundaries of knowledge.",
@@ -262,25 +297,28 @@ export const newsArray = [
     image: img3,
   },
   {
-    title: "New Science Building Opens at BST School",
+    id: 7,
+    title: "New Building Opens at BST School",
     description:
-      "BST School is proud to unveil its state-of-the-art science building. This modern facility is equipped with cutting-edge laboratories and technology to foster scientific exploration and discovery. Our commitment to providing top-notch resources for our students is evident in this new addition to our campus. The building will serve as a hub for scientific research, experimentation, and collaboration.",
+      "BST School is proud to unveil its state-of-the-art  building. This modern facility is equipped with cutting-edge laboratories and technology to foster scientific exploration and discovery. Our commitment to providing top-notch resources for our students is evident in this new addition to our campus. The building will serve as a hub for scientific research, experimentation, and collaboration.",
     date: "July 10, 2023",
-    image: img4,
+    image: gan1,
   },
   {
-    title: "BST School Receives Grant for STEM Scholarships",
+    id: 8,
+    title: "BST School gives out awards on her graduation ceremony",
     description:
       "Thanks to a generous grant from a philanthropic organization, BST School will provide scholarships to aspiring STEM (Science, Technology, Engineering, and Mathematics) students. This initiative aims to ensure that talented individuals have access to quality education in STEM fields, regardless of their financial circumstances. The scholarships will open doors to opportunities and empower students to pursue their dreams in science and technology.",
     date: "June 5, 2023",
-    image: img5,
+    image: news6,
   },
   {
+    id: 9,
     title: "Celebrating Student Achievements in Science Olympiad",
     description:
       "BST School students achieved remarkable success at the National Science Olympiad, bringing home numerous awards and accolades for their scientific prowess. Our students' dedication to mastering scientific concepts and problem-solving skills has been truly impressive. We celebrate their achievements and look forward to nurturing their passion for science and technology in the years to come.",
     date: "May 12, 2023",
-    image: img2,
+    image: news7,
   },
 ];
 
@@ -374,24 +412,24 @@ export const reasonsToChooseUs = [
 ];
 
 export const galleryImages = [
-  {
-    title: "Engineering Complex",
-    description:
-      "The Engineering Complex houses state-of-the-art laboratories, workshops, and classrooms dedicated to various engineering disciplines. It's where students turn innovative ideas into reality.",
-    img: ga1,
-  },
-  {
-    title: "Computer Science Center",
-    description:
-      "The Computer Science Center is a hub for computer science and technology education. It's equipped with advanced computing facilities and collaborative spaces for coding and research.",
-    img: ga2,
-  },
-  {
-    title: "Science Research Labs",
-    description:
-      "Our Science Research Labs are where groundbreaking discoveries happen. Students and faculty conduct experiments and research in physics, chemistry, biology, and more.",
-    img: ga3,
-  },
+  // {
+  //   title: "Engineering Complex",
+  //   description:
+  //     "The Engineering Complex houses state-of-the-art laboratories, workshops, and classrooms dedicated to various engineering disciplines. It's where students turn innovative ideas into reality.",
+  //   img: ga1,
+  // },
+  // {
+  //   title: "Computer Science Center",
+  //   description:
+  //     "The Computer Science Center is a hub for computer science and technology education. It's equipped with advanced computing facilities and collaborative spaces for coding and research.",
+  //   img: ga2,
+  // },
+  // {
+  //   title: "Science Research Labs",
+  //   description:
+  //     "Our Science Research Labs are where groundbreaking discoveries happen. Students and faculty conduct experiments and research in physics, chemistry, biology, and more.",
+  //   img: ga3,
+  // },
   {
     title: "Tech Innovation Hub",
     description:
@@ -402,7 +440,7 @@ export const galleryImages = [
     title: "Library and Learning Center",
     description:
       "The Library and Learning Center is a resource-rich facility with a vast collection of books, digital resources, and study spaces to support studen img: ga3,ts in their academic pursuits.",
-    img: ga7,
+    img: ga11,
   },
   {
     title: "Science Research Labs",
@@ -426,25 +464,25 @@ export const galleryImages = [
     title: "Science Research Labs",
     description:
       "Our Science Research Labs are where groundbreaking discoveries happen. Students and faculty conduct experiments and research in physics, chemistry, biology, and more.",
-    img: ga11,
+    img: ga7,
   },
   {
     title: "Tech Innovation Hub",
     description:
       "The Tech Innovation Hub is a dynamic space for creativity and innovation. It fosters entrepreneurship, hosts tech startup incubators, and encourages students to think outside the box.",
-    img: ga13,
+    img: gan1,
   },
   {
     title: "Library and Learning Center",
     description:
       "The Library and Learning Center is a resource-rich facility with a vast collection of books, digital resources, and study spaces to support studen img: ga3,ts in their academic pursuits.",
-    img: ga7,
+    img: gan2,
   },
   {
     title: "Science Research Labs",
     description:
       "Our Science Research Labs are where groundbreaking discoveries happen. Students and faculty conduct experiments and research in physics, chemistry, biology, and more.",
-    img: ga14,
+    img: gan3,
   },
 ];
 
@@ -479,16 +517,22 @@ export const objectives = [
 export const courses = [
   {
     name: "CERTIFICATE COURSES",
+    content:
+      "Enhance your skill in the most sought-after position in the market space. Come get the skills, opportunities, mindset, and experiences that make you employable.    ",
     imageUrl: cert1,
     id: 1,
   },
   {
     name: "DIPLOMA COURSES",
     imageUrl: cert2,
+    content:
+      "Our industry-led courses, hands-on learning, and university-affiliated diplomas prepare you for a successful tech career. Join us on a journey of innovation and skill development. Your future in tech starts here!",
     id: 2,
   },
   {
-    name: "COPERATE TRAINING",
+    name: "EXECUTIVE TRAINING",
+    content:
+      "Elevate your expertise with our Executive Courses, curated for seasoned professionals. Acquire advanced skills, strategic insights, and a mindset tailored for leadership roles. Become tech inclined, drive business better and engage tech teams like a pro",
     imageUrl: cert3,
     id: 3,
   },
@@ -500,7 +544,7 @@ export const coursesPartitions = [
     name: "Frontend Development",
     course: "CERTIFICATE COURSES",
     description:
-      "Embark on an exciting journey of learning coding with the latest technology and master the art of frontend web design. Our comprehensive course empowers you to create stunning and responsive user interfaces using a powerful stack of technologies. Dive into the world of web development with hands-on experience in HTML, CSS, and JavaScript, the foundational languages of the web. Explore the capabilities of React, a cutting-edge JavaScript library, and harness its potential to build dynamic and interactive user interfaces.",
+      "Learn coding with the latest technology. Learn to do frontend web design with tools like HTML, CSS, JavaScript, React",
     duration: "3 months",
     price: "N75,000 ($125)",
   },
@@ -518,7 +562,7 @@ export const coursesPartitions = [
     name: "Fullstack Development",
     course: "CERTIFICATE COURSES",
     description:
-      "Embark on a comprehensive learning journey to master the intricacies of both frontend and server-side development. This course equips you with the skills to craft dynamic frontend interfaces using HTML, CSS, JavaScript, and React, while simultaneously delving into the realm of robust server-side applications with Node.js, MongoDB, and Express.js. By becoming proficient in this versatile stack, you'll emerge as a well-rounded coder capable of creating end-to-end web solutions. Git and GitHub integration will be seamlessly woven into your workflow, ensuring efficient version control and collaborative development. This holistic approach empowers you to excel in the dynamic landscape of web development, offering a skill set essential for creating seamless and engaging web applications.",
+      "Learn to craft dynamic frontend interfaces /and robust server-side applications, become a versatile coder capable of creating end-to-end web solutions. HTML, CSS, JavaScript, React, Node,js, MongoDB, Express.js, GIT/GitHub ",
     duration: "6 months",
     price: "N180,000 ($300)",
   },
@@ -527,25 +571,25 @@ export const coursesPartitions = [
     name: "Data and Business Analysis",
     course: "CERTIFICATE COURSES",
     description:
-      "Acquire a comprehensive skill set to thrive in the dynamic field of data analytics. This course is designed to equip you with the essential tools and knowledge required for effective data analysis. Delve into the intricacies of Advanced Excel, gaining proficiency in handling and manipulating complex datasets. Explore the powerful visualization capabilities of Power BI, allowing you to present insights in a compelling and accessible manner. Master SQL, the cornerstone of database management, enabling you to retrieve and analyze data with precision. Additionally, dive into the world of Python for Exploratory Data Analysis (EDA), leveraging its versatile libraries to extract meaningful patterns and trends from raw data. By the end of this program, you will possess a robust foundation in data analytics, empowering you to draw valuable insights and make informed decisions in various professional settings. Join us and unlock the potential to succeed in the ever-evolving landscape of data analysis.",
+      "Learn all you need to succeed in data analytics with tools such as Advance Excel, Power BI, SQL and Python for EDA.",
     duration: "3 months",
     price: "N90,000 ($150)",
   },
   {
     id: 5,
-    name: "User Interface and User Design",
+    name: "Product Design (UI-UX)",
     course: "CERTIFICATE COURSES",
     description:
-      "Immerse yourself in a transformative learning experience where theoretical knowledge meets hands-on practice, allowing you to gain invaluable practical experience and cultivate the skills essential for crafting exceptional user experiences. Our dynamic product design course goes beyond traditional learning, providing you with the tools and techniques to navigate the intricacies of user-centric design. Through interactive projects and real-world scenarios, you'll develop a deep understanding of the design process, honing skills in prototyping, wireframing, and user testing. Whether you're a novice or a seasoned designer, this course offers a unique opportunity to elevate your expertise and create designs that not only meet user needs but also exceed expectations. Join us on this journey and unlock the potential to shape the future of user experience with confidence and creativity.",
+      "Gain practical experience and develop the skills you need to create exceptional user experience with our hands-on product design course.",
     duration: "2 months",
     price: "N75,000 ($125)",
   },
   {
     id: 6,
-    name: "Developement Operations (DevOps)",
+    name: "DevOps Engineering",
     course: "CERTIFICATE COURSES",
     description:
-      "Immerse yourself in a transformative learning experience that goes beyond theory, providing you with hands-on expertise in the dynamic realm of automating workflows, deploying applications, and ensuring the reliability of modern tech systems. This comprehensive course empowers you to master the intricacies of leading cloud platforms such as Azure and AWS, enabling you to play a pivotal role in the critical landscape of IT operations. Through practical exercises and real-world scenarios, you'll develop proficiency in automating routine tasks, streamlining workflows, and deploying applications with efficiency. By the end of this program, you will be well-equipped to navigate the complexities of cloud computing, contributing to the seamless functioning and reliability of cutting-edge technological systems. Join us and unlock the potential to become a key player in the ever-evolving field of IT operations, where your skills in Azure, AWS, and system reliability will be in high demand.",
+      "Gain hands-on experience in automating workflows, deploying applications, and ensuring the reliability of modern tech systems. Master Azure/AWS and play a pivotal role in IT operations.",
     duration: "3 months",
     price: "N250,000 ($415)",
   },
@@ -554,41 +598,59 @@ export const coursesPartitions = [
     name: "Cyber Security",
     course: "CERTIFICATE COURSES",
     description:
-      "Embark on a transformative educational journey where you will acquire the expertise to become a master in the realm of digital defense. This course is meticulously crafted to equip you with a comprehensive skill set essential for safeguarding data and ensuring privacy in the digital landscape. From the fundamentals of threat detection to the intricacies of ethical hacking, you will delve into a wide spectrum of defensive strategies. By gaining hands-on experience and learning without boundaries, you'll be immersed in real-world scenarios, honing your ability to proactively identify and neutralize potential threats. This program not only imparts theoretical knowledge but emphasizes practical application, empowering you to navigate the ever-evolving landscape of cybersecurity with confidence. Join us and become a guardian of digital realms, where your skills in data protection and ethical hacking will be at the forefront of securing our digital future.",
+      "Learn to master the act of digital defense, this course equip you with the skills to safeguard data and privacy. From threat detection to ethical hacking, learn without boundaries!",
     duration: "3 months",
     price: "N180,000 ($300)",
   },
   {
     id: 8,
-    name: "Puthon for Data Science",
+    name: "Python for Data Science",
     course: "CERTIFICATE COURSES",
     description:
-      "Embark on a transformative learning experience to become a proficient Full Stack Python coder specifically tailored for the realms of Data Science and Machine Learning. In this comprehensive course, you'll delve into the intricacies of Python, honing your skills to a level of expertise that goes beyond mere coding proficiency. Explore the dynamic landscape of Data Science and Machine Learning, where Python serves as the backbone for robust and innovative projects. From data preprocessing to model development and deployment, you'll gain practical insights and hands-on experience that will elevate you to greatness in the realm of Data Science and ML. By the end of this program, you will possess the knowledge and confidence to tackle complex projects, utilizing Python as a powerful tool to navigate the ever-evolving challenges of the data-driven world. Join us on this exciting journey and unlock the potential to excel in the dynamic fields of Data Science and Machine Learning with Full Stack Python proficiency.",
+      "Become a Full Stack Python coder for Data Science and Machine Learning. With this course, you’ll be great at using Python for robust Data Science and ML projects.",
     duration: "2 months",
     price: "N100,000 ($165)",
+  },
+  {
+    id: 8,
+    name: "Data Science & AI",
+    course: "DIPLOMA COURSES",
+    description:
+      "Get ready for the century of data and machine intelligence! Our curriculum covers every aspects of the gigantic Data Science ecosystem. Learn Advance Excel, Power BI, SQL, Python & Machine Learning.",
+    duration: "6 months",
+    price: "N180,000 ($300)",
   },
   {
     id: 9,
     name: "Software Engineering",
     course: "DIPLOMA COURSES",
     description:
-      "Embark on a comprehensive journey into the world of Full Stack Development, where you will not only master Python—the versatile and powerful programming language—but also delve into the intricacies of version control with GIT/GitHub. Expand your horizons by exploring Cloud Infrastructure, gaining proficiency in deploying and managing applications in cloud environments. Complementing your technical prowess, this course equips you with essential Project Management skills, specifically centered around the Agile Methodology. Learn to navigate the entire software development lifecycle, from conceptualization to deployment, and become adept at adapting to changing project requirements. By the end of this immersive program, you will emerge as a well-rounded Full Stack Developer, ready to tackle the challenges of modern software development with a holistic understanding of both technical and project management aspects. Join us and unlock the potential to be a versatile and effective contributor to cutting-edge development projects.",
+      "Full Stack Development Python, GIT/GITHUB Cloud Infrastructure Project Management (Agile Methodology)",
     duration: "9 months",
     price: "N300,000 ($500)",
   },
   {
+    id: 9,
+    name: "Data Engineering",
+    course: "CERTIFICATE COURSES",
+    description:
+      "Gain hands-on experience in automating workflows, deploying applications, and ensuring the reliability of modern tech systems",
+    duration: "4 months",
+    price: "N220,000 ($365)",
+  },
+  {
     id: 10,
-    name: "Product Design and Management",
+    name: "DevOps and Cloud Computing",
     course: "DIPLOMA COURSES",
     description:
-      "Learn the end-to-end process of product design and management, from ideation to launch.",
+      "Gain hands-on experience in automating workflows, deploying applications, and ensuring the reliability of modern tech systems. Master Azure/AWS and play a pivotal role in IT operations.",
     duration: "6 months",
-    price: "N250,000 ($420)",
+    price: "N350,000 ($520)",
   },
   {
     id: 11,
     name: "Cloud Engineering",
-    course: "DIPLOMA COURSES",
+    course: "CERTIFICATE COURSES",
     description:
       "Master cloud technologies and architecture for scalable and secure applications.",
     duration: "6 months",
@@ -597,7 +659,7 @@ export const coursesPartitions = [
   {
     id: 12,
     name: "Tech fluency for Leaders(AI)",
-    course: "COPERATE TRAINING",
+    course: "EXECUTIVE TRAINING",
     description:
       "Equip leaders with the knowledge and understanding of AI technologies.",
     duration: "2 days",
@@ -606,11 +668,20 @@ export const coursesPartitions = [
   {
     id: 13,
     name: "Tech fluency for Leaders(SOFTWARE)",
-    course: "COPERATE TRAINING",
+    course: "EXECUTIVE TRAINING",
     description:
       "Empower leaders with insights into software development trends and practices.",
     duration: "2 days",
     price: "N300,000 ($500)",
+  },
+  {
+    id: 14,
+    name: "Data Science",
+    course: "CERTIFICATE COURSES",
+    description:
+      "Get ready for the century of data and machine intelligence! Our curriculum covers every aspects of the gigantic Data Science ecosystem. Learn Advance Excel, Power BI, SQL, Python & Machine Learning.",
+    duration: "3 months",
+    price: "N90,000 ($150)",
   },
 ];
 
@@ -759,30 +830,30 @@ export const whyUsReasons = [
     description:
       "We stay at the forefront of technological advancements, ensuring you learn the latest skills and technologies.",
   },
-  {
-    icon: <LanguageIcon sx={{ color: "#000066" }} />,
-    title: "Global Community",
-    description:
-      "Join a diverse and global community of learners and professionals.",
-  },
-  {
-    icon: <AirplayIcon sx={{ color: "#000066" }} />,
-    title: "Interactive Learning",
-    description:
-      "Experience interactive learning methods that make education engaging and fun.",
-  },
-  {
-    icon: <SportsSoccerIcon sx={{ color: "#000066" }} />,
-    title: "Extracurricular Activities",
-    description:
-      "Participate in a variety of sports and extracurricular activities to balance your academic life.",
-  },
-  {
-    icon: <AttachMoneyIcon sx={{ color: "#000066" }} />,
-    title: "Affordable Tuition",
-    description:
-      "Quality education doesn't have to come at a high cost. We offer affordable tuition and financial aid options.",
-  },
+  // {
+  //   icon: <LanguageIcon sx={{ color: "#000066" }} />,
+  //   title: "Global Community",
+  //   description:
+  //     "Join a diverse and global community of learners and professionals.",
+  // },
+  // {
+  //   icon: <AirplayIcon sx={{ color: "#000066" }} />,
+  //   title: "Interactive Learning",
+  //   description:
+  //     "Experience interactive learning methods that make education engaging and fun.",
+  // },
+  // {
+  //   icon: <SportsSoccerIcon sx={{ color: "#000066" }} />,
+  //   title: "Extracurricular Activities",
+  //   description:
+  //     "Participate in a variety of sports and extracurricular activities to balance your academic life.",
+  // },
+  // {
+  //   icon: <AttachMoneyIcon sx={{ color: "#000066" }} />,
+  //   title: "Affordable Tuition",
+  //   description:
+  //     "Quality education doesn't have to come at a high cost. We offer affordable tuition and financial aid options.",
+  // },
 ];
 
 export const LearningProgressions = [

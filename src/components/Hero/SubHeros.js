@@ -35,15 +35,13 @@ const SubHeros = ({ section }) => {
                 color: "#fff",
                 fontWeight: "bold",
                 fontSize: "50px",
-
-                lineHeight: "3rem",
                 fontFamily: "Raleway",
 
-                lineHeight: "3.5rem",
+                lineHeight: "2.8rem",
 
                 "@media (max-width: 567px)": {
                   fontSize: "40px",
-                  lineHeight: "3.5rem",
+                  lineHeight: "2.4rem",
                 },
               }}>
               <span>Babtech</span> School of Tech

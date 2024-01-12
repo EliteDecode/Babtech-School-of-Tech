@@ -9,16 +9,19 @@ import NavFooter from "../../components/Footer/Footer";
 import Breadcrumbs from "../../components/general/Breadcrumbs";
 import SingleContent from "../../components/SingleContent/SingleContent";
 import { useParams } from "react-router-dom";
+import { newsArray } from "../../utils/data";
 
 const SingleNews = () => {
   const { closeSubmenu } = useGlobalContext();
-  const { getSingleNews, loading, singleNews, news } = useApiGlobalContext();
+  const { getSingleNews, loading, news } = useApiGlobalContext();
 
   const { newsId } = useParams();
 
-  useEffect(() => {
-    getSingleNews(newsId);
-  }, []);
+  const singleNews = newsArray.find((news) => newsId == news.id);
+
+  // useEffect(() => {
+  //   getSingleNews(newsId);
+  // }, []);
 
   useEffect(() => {
     AOS.init();
@@ -34,7 +37,7 @@ const SingleNews = () => {
         <SingleContent
           item={singleNews}
           category="News"
-          others={news}
+          others={newsArray}
           loading={loading}
         />
         <Subscribe />

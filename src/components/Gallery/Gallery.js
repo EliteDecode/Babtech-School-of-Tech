@@ -28,7 +28,7 @@ const Gallery = () => {
                     className="border rounded-lg shadow-lg"
                   />
                 </ImageViewer>
-                <Typography>{item.title}</Typography>
+                {/* <Typography>{item.title}</Typography> */}
               </Grid>
             ))}
           </Grid>

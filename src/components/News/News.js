@@ -1,10 +1,11 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import Title from "../general/Title";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logoblue.png";
 import { newsArray } from "../../utils/data";
 import { Avatar, Card } from "antd";
 import ButtonCustome from "../general/ButtonCustome";
+import { Link } from "react-router-dom";
 
 const { Meta } = Card;
 const News = () => {
@@ -15,7 +16,7 @@ const News = () => {
 
         <Grid container spacing={4}>
           {newsArray.map((news, index) => {
-            const { image, title, description, date } = news;
+            const { image, title, description, date, id } = news;
 
             return (
               <Grid item sm={12} xs={12} md={4} key={index}>
@@ -38,12 +39,14 @@ const News = () => {
                       <Avatar src={logo} />
                       <Typography variant="subtitle2">{date}</Typography>
                     </Box>
-                    <ButtonCustome
-                      size="small"
-                      color="#c39a4b"
-                      text="Read More"
-                      type="transparent"
-                    />
+                    <Link to={`news/${id}`}>
+                      <ButtonCustome
+                        size="small"
+                        color="#c39a4b"
+                        text="Read More"
+                        type="transparent"
+                      />
+                    </Link>
                   </Box>
                 </Card>
               </Grid>

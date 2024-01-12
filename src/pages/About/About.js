@@ -9,6 +9,7 @@ import SubHeros from "../../components/Hero/SubHeros";
 import VisionMission from "../../components/VisionMission/VisionMission";
 import Objectives from "../../components/Objectives/Objectives";
 import Partner from "../../components/Partner/Partner";
+import ContactUs from "../../components/Contact/ContactUs";
 
 const About = () => {
   const { closeSubmenu } = useGlobalContext();
@@ -27,6 +28,7 @@ const About = () => {
         <Objectives />
         <Partner />
         <CoreValues />
+        <ContactUs />
         <Subscribe />
         <NavFooter />
       </div>

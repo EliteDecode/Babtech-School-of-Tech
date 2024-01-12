@@ -38,7 +38,7 @@ const Title = ({ subtitle, title }) => {
           fontSize: "35px",
           fontWeight: "Bold",
           color: "#000066",
-
+          fontFamily: "Raleway",
           fontSize: "40px",
           fontWeight: "Bold",
           marginTop: "1%",

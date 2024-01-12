@@ -8,9 +8,9 @@ import {
   Paper,
   Typography,
 } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 import Title from "../general/Title";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logoblue.png";
 import { newsArray, upcomingEvents } from "../../utils/data";
 import { Avatar, Card } from "antd";
 import NewsLoader from "../Loader/NewsLoader";
@@ -19,6 +19,9 @@ import { Link } from "react-router-dom";
 
 const { Meta } = Card;
 const SingleContent = ({ item, category, others, loading }) => {
+  useEffect(() => {
+    console.log(item);
+  }, []);
   return (
     <Box
       className=" py-10 bg-[#f7f7f7]"
@@ -33,18 +36,14 @@ const SingleContent = ({ item, category, others, loading }) => {
             {/* Left Column: Main News */}
             <Grid item xs={12} md={8}>
               <Paper>
-                <img
-                  src={`${process.env.REACT_APP_API_URL}/uploads/images/${item?.image}`}
-                  alt="News"
-                  className="w-full h-auto"
-                />
+                <img src={item?.image} alt="News" className="w-full h-auto" />
 
                 <div className="p-4">
                   <p className="text-[16px] my-3">{item?.description}</p>
                   <div className="flex items-center justify-between w-full">
                     <p className="font-bold text-[13px]">
                       {" "}
-                      {new Date(item?.createdAt).toLocaleString(undefined, {
+                      {new Date(item?.date).toLocaleString(undefined, {
                         year: "numeric",
                         month: "long",
                         day: "numeric",
@@ -88,7 +87,10 @@ const SingleContent = ({ item, category, others, loading }) => {
                           key={index}>
                           <ListItem>
                             <ListItemAvatar>
-                              <Avatar src={logo} sx={{ bgcolor: "#1d6400" }} />
+                              <Avatar
+                                src={logo}
+                                sx={{ bgcolor: "#1d640blue0" }}
+                              />
                             </ListItemAvatar>
                             <ListItemText
                               sx={{

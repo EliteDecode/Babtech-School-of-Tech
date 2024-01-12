@@ -1,4 +1,4 @@
-import { Box, Button } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import { Card } from "antd";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -9,8 +9,13 @@ const SchoolDepartmentCard = ({ data, triggeredFrom }) => {
       title={data.school ? "School Of" : "Department Of"}
       className="shadow-lg w-full"
       bordered={false}
-      style={{ fontWeight: "bold", fontSize: "18px", width: "100%" }}>
+      style={{ fontWeight: "bold", fontSize: "16px", width: "100%" }}>
       {data.name}
+      <Typography
+        variant="subtitle2"
+        sx={{ fontWeight: "bold", opacity: "0.5" }}>
+        {data?.price}
+      </Typography>
       <Box className="mt-5">
         <Link to={`/Diploma/courses/course/departments/${data.name}`}>
           <Button
@@ -30,7 +35,7 @@ const SchoolDepartmentCard = ({ data, triggeredFrom }) => {
                 border: "none",
               },
             }}>
-            View Department
+            View Info
           </Button>
         </Link>
       </Box>

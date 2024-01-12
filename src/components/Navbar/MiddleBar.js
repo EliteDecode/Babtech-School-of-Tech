@@ -20,7 +20,7 @@ const MiddleBar = () => {
                 <img src={logo} className="nav-logo" alt="" />
               </Link>
             </div>
-            <div className=" flex items-center justify-between w-[45%]">
+            <div className=" flex items-center justify-between w-[35%]">
               <ul className="nav-links space-x-1 flex items-center  ">
                 {mainLinks.map((link, index) => (
                   <Link to={`/${link.page}`}>
