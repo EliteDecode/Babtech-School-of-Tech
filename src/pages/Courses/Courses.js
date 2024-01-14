@@ -5,8 +5,9 @@ import Subscribe from "../../components/Subscribe/Subscribe";
 import NavFooter from "../../components/Footer/Footer";
 import AOS from "aos";
 import SubHeros from "../../components/Hero/SubHeros";
-
-const PublicInfo = () => {
+import Breadcrumbs from "../../components/general/Breadcrumbs";
+import Courses from "../../components/Courses/Courses";
+const MainCourses = () => {
   const { closeSubmenu } = useGlobalContext();
 
   useEffect(() => {
@@ -18,12 +19,14 @@ const PublicInfo = () => {
     <div>
       <Navbar />
       <div onMouseOver={closeSubmenu}>
-        <SubHeros section="Public Information" />
-
-        <h1>Coming Soon!</h1>
+        <SubHeros section="colleges and schools" />
+        <Breadcrumbs primaryPage="Diploma" secondaryPage="Colleges" />
+        <Courses />
+        <Subscribe />
+        <NavFooter />
       </div>
     </div>
   );
 };
 
-export default PublicInfo;
+export default MainCourses;

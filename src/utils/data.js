@@ -235,15 +235,6 @@ export const heroContents = [
     btn1: "About Us",
     btn2: "Latest News",
   },
-  // {
-  //   class: "content-3",
-  //   subtitle: "Our Expert Tutors",
-  //   title: "Excellent in Tech Education",
-  //   subtitle2:
-  //     "Igniting Innovation Through Research and Transforming Ideas into Solutions",
-  //   btn1: "Explore ",
-  //   btn2: "Contact Us",
-  // },
 ];
 
 export const newsArray = [
@@ -412,24 +403,6 @@ export const reasonsToChooseUs = [
 ];
 
 export const galleryImages = [
-  // {
-  //   title: "Engineering Complex",
-  //   description:
-  //     "The Engineering Complex houses state-of-the-art laboratories, workshops, and classrooms dedicated to various engineering disciplines. It's where students turn innovative ideas into reality.",
-  //   img: ga1,
-  // },
-  // {
-  //   title: "Computer Science Center",
-  //   description:
-  //     "The Computer Science Center is a hub for computer science and technology education. It's equipped with advanced computing facilities and collaborative spaces for coding and research.",
-  //   img: ga2,
-  // },
-  // {
-  //   title: "Science Research Labs",
-  //   description:
-  //     "Our Science Research Labs are where groundbreaking discoveries happen. Students and faculty conduct experiments and research in physics, chemistry, biology, and more.",
-  //   img: ga3,
-  // },
   {
     title: "Tech Innovation Hub",
     description:

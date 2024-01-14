@@ -8,7 +8,6 @@ import { useNavigate, useNavigation } from "react-router-dom";
 
 const Hero2 = () => {
   const [course, setCourse] = React.useState("");
-  const navigate = useNavigate();
   const navigateToPage = () => {
     navigate(`/Diploma/courses/${course}`);
   };
@@ -16,6 +15,7 @@ const Hero2 = () => {
   const handleChange = (value) => {
     setCourse(value);
   };
+  const navigate = useNavigate();
 
   return (
     <Box className="bg-[#fff] hero2">
